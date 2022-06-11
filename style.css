@@ -72,10 +72,10 @@ h1 {
 .dirt {
     background-color: #3a241d;
     position: absolute;
-    width: 60%;
+    width: 56%;
     height: 5%;
     bottom: 1%;
-    left: 20%;
+    left: 22%;
     border-radius: 0 0 3rem 3rem;
     opacity: 0.7;
     z-index: -1;
