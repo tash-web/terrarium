@@ -18,9 +18,9 @@ function dragElement(terrariumElement) {
     pos2 = 0,
     pos3 = 0,
     pos4 = 0;
-  terrariumElement.onpointerdown = pointerdrag;
+  terrariumElement.onpointerdown = pointerDrag;
 
-  function pointerdrag(e) {
+  function pointerDrag(e) {
     e.preventDefault();
     pos3 = e.clientX;
     pos4 = e.clientY;
